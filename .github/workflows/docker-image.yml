@@ -4,7 +4,7 @@ on:
   push:
 
 jobs:
-  push_to_registry:
+  build:
     name: 推送 Docker 镜像到 Docker Hub
     runs-on: ubuntu-latest
     steps:
